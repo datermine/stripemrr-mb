@@ -82,3 +82,7 @@ After editing `main.swift`, `make install` rebuilds and restarts it.
 - **`Error 3 (ignored)` during `make install`:** harmless; it's the attempt to stop a previous instance that wasn't loaded.
 - **Status:** `launchctl print gui/$(id -u)/local.stripe-mrr | grep state`
 - **Rotate the key:** `security delete-generic-password -s stripe-mrr`, then redo step 2.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
